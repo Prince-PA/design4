@@ -1,4 +1,4 @@
-/* ---------- Reset & Base ---------- */
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@ body {
   font-family: 'Segoe UI', Arial, sans-serif;
 }
 
-/* ---------- Top Bar ---------- */
+
 .topbar {
   display: flex;
   align-items: center;
@@ -44,7 +44,7 @@ body {
   font-size: 15px;
 }
 
-/* ---------- Hero Section ---------- */
+
 .hero {
   position: relative;
   min-height: 660px;
@@ -90,7 +90,7 @@ body {
   margin-bottom: 50px;
 }
 
-/* ---------- Cards ---------- */
+
 .cards-container {
   position: relative;
   z-index: 2;
@@ -150,21 +150,3 @@ body {
   color: #fff;
 }
 
-/* ---------- Responsive ---------- */
-@media (max-width: 950px) {
-  .cards-container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .hero-title {
-    font-size: 38px;
-  }
-}
-
-@media (max-width: 600px) {
-  .topbar {
-    flex-direction: column;
-    gap: 8px;
-    text-align: center;
-  }
-}
